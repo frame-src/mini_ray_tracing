@@ -1,1 +1,1 @@
-![](./SPHERE.png)
+![](SPHERE.png)
