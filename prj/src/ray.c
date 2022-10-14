@@ -30,7 +30,7 @@ tRgb    *rayColor(tRay *ray){
     }
     N = versor((tVector *)ray->direction);
     startColor = (tRgb *)newVector(1.0, 1.0, 1.0);
-    endColor = (tRgb *)newVector(0.5, 0.7, 1.0);
+    endColor = (tRgb *)newVector(0.7, 0.1, 1);
     t = (0.5)*((N)->p1 + 1.0);
     endColor = (tRgb *)vectorSumm(
                         vectorScalar((tVector *)startColor,(1.0 - t)),
