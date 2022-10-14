@@ -1,2 +1,2 @@
 ![](./img/SPHEREN.png)
-<sub>A sphere colored according to its N unit vector;</sub>
+<p align="center"><sub>A sphere colored according to its N unit vector;</sub></p>
