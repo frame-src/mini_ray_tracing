@@ -11,7 +11,7 @@ int main (void){
     tVector *v1;
 
     v = newVector(1,1,1);
-    v1 =  newVector(1,0,1);
+    v1 = newVector(1,0,1);
     printf("vector DIFF \n");
     printVector(vectorDiff(v,v1));
     printf("vector SUMM \n");

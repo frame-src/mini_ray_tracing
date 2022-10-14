@@ -12,7 +12,7 @@ SRC = 	./src/color.c \
 OBJ=	$(patsubst $(SDIR)/%.c, $(ODIR)/%.o, $(SRC))
 
 CC = cc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra 
 
 all:	$(NAME)
 

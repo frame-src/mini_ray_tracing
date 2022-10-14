@@ -35,7 +35,11 @@ const tVector   *direction;
 }   tRay;
 
 //void rayOriginInit(struct sRay* ray, tPoint *, tPoint *);
-void rayOriginInit(tPoint *, tPoint *);
+tPoint   *rayOriginInit(tPoint *coordinates);
+void rayDirectionInit(tVector *direction, tVector *coordinates);
+tVector *directionCoordinatesCalculation(tViewport *viewport, double u, double v);
+tRay    *rayInit( tViewport *viewport, tVector *direction);
+
 tViewport *initViewport();
 
 tRgb *rayColor(tRay *ray);

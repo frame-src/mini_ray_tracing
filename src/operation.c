@@ -74,7 +74,7 @@ tVector    *versor (tVector *v){
     tVector    *new;
     double     lenght;
 
-    lenght = modul(v);
+    lenght = sqrt(modul(v));
     new = newVector((v->p0)/lenght, (v->p1)/lenght, (v->p2)/lenght);
     return      new;
 }
